@@ -9,19 +9,19 @@
 - There was very slight chance of rows to be repeated, so for that I extended code to avoid that, whose logic will be based of id of each question.Thus remove the worry of repeatation of questions
 - Tested and analyzed the code using different test cases
 
-**jhasurajj - jhasuraj0501@gmail.com**
+**@jhasurajj - jhasuraj0501@gmail.com**
 - At the starting obtained the knowledge of python, postgresql,  then started learning basic of each then create a database by using python module sqlite3 called "question.db" which consist a table "result" which have 4 columns("question","option 1", "option 2","ans").
 - Then using different SQL command insert the values of the column after display the table value which is persent in the database.
 - Then wrote the logic to print random question from database without repetation of any question.
 
-**Manjeet12102000 - manjeetg701@gmail.com**
+**@Manjeet12102000 - manjeetg701@gmail.com**
 - did some  research on  how we can connect the database from backend and how to display random question from database . 
 - Created database in postgres sql for questions, options and ans. 
 - Connected database to the  backend. 
 - created query to print the random question from database . 
 - discussed with the whole group about our program and checked the all the test cases whether the question repeating or not.
 
-**mansi0204 - mansiinchanalkar12@gmail.com**
+**@mansi0204 - mansiinchanalkar12@gmail.com**
 - Installed postgreSQL on my system. 
 - Created table named as question in database test by using postgreSQL.
 - Developed a Python program  which randomly select and display questions from database with the help of  random () function. 
