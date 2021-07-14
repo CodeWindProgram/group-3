@@ -1,5 +1,5 @@
 ## Problem Statement: 
-### Develop a program which will Randomly select the questions from database
+# Develop a program which will Randomly select the questions from database.
 
 
 **1. @Salman8520 - *Salmanansari9869@gmail.com***
