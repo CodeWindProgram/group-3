@@ -64,5 +64,5 @@
 - Then learnt the basic of each. Then Created a database called “test” consisting of table “Question-set” having 5 coloumns(“Qid”,”Question”,”Option1”,”Option2”,”Option3”,”Option4”,”Answer”). Then wrote a code to connect the database with the program. 
 - Then wrote the logic to print random questions from database along with storing the Qid in set() so that questions don’t repeat and to keep a track of which question from the database was called.
 
-
+---
 - **Note: Everyone in team discussed & used their own logic and came up with their different or same solution.In the end we chose one efficient & perfect code to push on gitHub repositary**
