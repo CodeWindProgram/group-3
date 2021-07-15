@@ -7,6 +7,7 @@
 - Created table with question_id,question,option_1,option_2,answer.
 - Created solution by using list data type(for ease of work) and one of the team member **@Manjeet12102000** share the part of solution by which we can pull rows randomly from table in database, and also search for if any other different logic available.
 - There was very slight chance of rows to be repeated, so for that I extended code to avoid that, whose logic will be based of id of each question.Thus remove the worry of repeatation of questions
+- Made the code more flexible so that can be use in many different places without changes
 - Tested and analyzed the code using different test cases
 
 
