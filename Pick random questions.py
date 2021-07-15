@@ -1,7 +1,7 @@
-def random_questions(n):
+def random_questions(n,subject):
   db=con.cursor()                  #con is database connecting instance 
   m=n+(math.floor(n/2))           #n=no. of requested row, m=no. of rows to be pulled from database 
-  db.execute("SELECT * FROM questionlist ORDER BY RANDOM() LIMIT (?)",(m,))
+  db.execute("SELECT * FROM "+subject+" ORDER BY RANDOM() LIMIT "+str(m))
   list_of_fatched_tuples=db.fetchall()
 
 #removing questions if any question is repeated 
@@ -19,3 +19,5 @@ def random_questions(n):
 
   #additional module require :
   #  1.math 
+
+# random_questions(required_question:int , table_name:string)
